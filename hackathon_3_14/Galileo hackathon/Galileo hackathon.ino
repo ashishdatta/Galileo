@@ -14,7 +14,7 @@ int pointValue;
 void setup() { 
   
   Serial.begin(115200);
-  pinMode(13, OUTPUT);  //we'll use the debug LED to output a heartbeat
+  pinMode(13, OUTPUT);  //we'll use the debug LED to output the score
   lcd.init();
   lcd.clear();
   lcd.printIn("PACMAN v0.1");
